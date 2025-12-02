@@ -1,9 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="code/source"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Volumes/homes/edgar/sapjco31P_13-70004517/sapjco3-linuxx86_64-3.1.13/sapjco3.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Volumes/homes/edgar/sapjidoc31P_4-80004914 (1)/sapidoc3.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/arturo.hernandez.b/Downloads/mysql-connector-java-8.0.23/mysql-connector-java-8.0.23.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="code/jars"/>
 	<classpathentry kind="lib" path="lib"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="var" path="IS_CLIENT"/>
 	<classpathentry kind="var" path="IS_SERVER"/>
 	<classpathentry kind="var" path="IS_ENTTK"/>
